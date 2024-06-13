@@ -9,6 +9,7 @@
   "author": "Milad Nekofar <milad@nekofar.com>",
   "license": "Apache-2.0",
   "scripts": {
+    "start": "tsx src/index.ts",
     "dev": "npm-run-all --parallel dev:*",
     "dev:server": "tsx watch src/index.ts",
     "dev:tunnel": "lt --port 3000",
